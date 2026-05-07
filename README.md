@@ -14,7 +14,7 @@
 
 ## 📋 Descripción
 
-<!-- ¿Qué vende tu ecommerce? ¿Qué lo hace diferente? -->
+<!-- ¿Qué Vende tu ecommerce = Suplementos para el gimnasio? ¿Qué lo hace diferente? -->
 
 ---
 
