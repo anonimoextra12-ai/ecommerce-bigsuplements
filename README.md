@@ -1,15 +1,15 @@
-# 🛒 [Nombre del proyecto]
+# 🛒 [Bigsuplements]
 
-> Proyecto final — Java POO · [Curso] · [2026]
+> Proyecto final — Java POO · [Curso:1603] · [2026]
 
 ## 👥 Integrantes
 
 | Nombre | GitHub |
 |--------|--------|
-| [Nombre 1] | [@usuario](https://github.com/usuario) |
-| [Nombre 2] | [@usuario](https://github.com/usuario) |
-| [Nombre 3] | [@usuario](https://github.com/usuario) |
-  [Nombre 4] | [@usuario](https://github.com/usuario) |
+| [Reinel Pupo Morelo] | [@usuario](https://github.com/usuario) |
+| [Emiliano Pérez Meza] | [@usuario](https://github.com/usuario) |
+| [Alexander Polo Narvaez] | [@usuario](https://github.com/usuario) |
+  [Melanie Polo Beltran] | [@usuario](https://github.com/usuario) |
 ---
 
 ## 📋 Descripción
@@ -38,7 +38,7 @@ git clone (https://github.com/Antomaker/competencia.git)
 | Categoría | Tecnología elegida |
 |-----------|-------------------|
 | Lenguaje | Java |
-| UI / Framework | <!-- Swing / JavaFX / Spring Boot / otro --> |
+| UI / Framework | Swing <!-- Swing / JavaFX / Spring Boot / otro --> |
 | Persistencia | <!-- Archivos / SQLite / MySQL / H2 / otro --> |
 | IDE | <!-- NetBeans / IntelliJ / Eclipse --> |
 
