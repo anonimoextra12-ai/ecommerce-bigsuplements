@@ -38,9 +38,9 @@ git clone (https://github.com/Antomaker/competencia.git)
 | Categoría | Tecnología elegida |
 |-----------|-------------------|
 | Lenguaje | Java |
-| UI / Framework | Swing <!-- Swing / JavaFX / Spring Boot / otro --> |
+| UI / Framework | Swing | <!-- Swing / JavaFX / Spring Boot / otro --> |
 | Persistencia | <!-- Archivos / SQLite / MySQL / H2 / otro --> |
-| IDE | <!-- NetBeans / IntelliJ / Eclipse --> |
+| IDE | NetBeans | <!-- NetBeans / IntelliJ / Eclipse --> |
 
 ---
 
