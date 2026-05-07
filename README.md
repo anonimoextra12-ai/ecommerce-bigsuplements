@@ -13,7 +13,7 @@
 ---
 
 ## 📋 Descripción
-KENIA TE AMO ANGI A TI TAMBIEN
+Tienda de suplementos deportivos online 
 
 ---
 
