@@ -13,8 +13,7 @@
 ---
 
 ## 📋 Descripción
-
-<!-- ¿Qué Vende tu ecommerce = Suplementos para el gimnasio? ¿Qué lo hace diferente? -->
+KENIA TE AMO
 
 ---
 
