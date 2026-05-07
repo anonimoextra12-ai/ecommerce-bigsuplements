@@ -14,6 +14,7 @@
 
 ## 📋 Descripción
 Venderemos suplementación deportiva de alto rendimiento, pero segmentada para facilitar la navegación en el código
+El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y tu peso, y automáticamente te sugiere un Combo Personalizado.
 
 ---
 
