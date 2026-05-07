@@ -13,7 +13,7 @@
 ---
 
 ## 📋 Descripción
-Venderemos suplementación deportiva de alto rendimiento, pero segmentada para facilitar la navegación en el 
+Venderemos suplementación deportiva de alto rendimiento, pero segmentada para facilitar la navegación en el codigo
 Línea de Fuerza: Creatinas y Pre-entrenos (foco en energía y potencia)
 Línea de Recuperación: Proteínas (Whey, Vegana, Isolatada) y Aminoácidos.
 El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y tu peso, y automáticamente te sugiere un Combo Personalizado.
