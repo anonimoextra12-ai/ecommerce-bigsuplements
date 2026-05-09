@@ -28,14 +28,11 @@ El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y 
 - IDE: NetBeans
 
 ### Pasos
-bash
 # 1. Clonar el repositorio
 git clone https://github.com/Antomaker/competencia.git
 # 2. Abrir el proyecto en NetBeans.
 # 3. Asegurarse de que la librería sqlite-jdbc esté en el Classpath.
 # 4. Ejecutar la clase com.bigsuplements.vista.VentanaTienda
-
-
 
 ---
 
