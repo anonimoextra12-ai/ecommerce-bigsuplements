@@ -24,15 +24,17 @@ El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y 
 
 ### Requisitos
 - Java JDK 17+
-- <!-- IDE, BD, etc. -->
+- SQLite JDBC Driver
+- IDE: NetBeans
 
 ### Pasos
-```bash
-# 1. Clonar
-git clone (https://github.com/Antomaker/competencia.git)
+bash
+# 1. Clonar el repositorio
+git clone https://github.com/Antomaker/competencia.git
+# 2. Abrir el proyecto en NetBeans.
+# 3. Asegurarse de que la librería sqlite-jdbc esté en el Classpath.
+# 4. Ejecutar la clase com.bigsuplements.vista.VentanaTienda
 
-# 2. <!-- instrucciones específicas de su proyecto -->
-```
 
 ---
 
@@ -42,7 +44,7 @@ git clone (https://github.com/Antomaker/competencia.git)
 |-----------|-------------------|
 | Lenguaje | Java |
 | UI / Framework | Swing | <!-- Swing / JavaFX / Spring Boot / otro --> |
-| Persistencia | veremos |  <!-- Archivos / SQLite / MySQL / H2 / otro --> |
+| Persistencia | SQLite |  <!-- Archivos / SQLite / MySQL / H2 / otro --> |
 | IDE | NetBeans | <!-- NetBeans / IntelliJ / Eclipse --> |
 
 ---
@@ -61,13 +63,13 @@ git clone (https://github.com/Antomaker/competencia.git)
 
 ## 🎯 Funcionalidades implementadas
 
-- [ ] Gestión de productos
-- [ ] Gestión de usuarios / clientes
-- [ ] Carrito de compras
-- [ ] Flujo de pedido y pago
-- [ ] Historial de pedidos
-- [ ] Interfaz gráfica o web funcional
-- [ ] Persistencia de datos
+- [ x ] Gestión de productos
+- [ x ] Gestión de usuarios / clientes
+- [ x ] Carrito de compras
+- [ x ] Flujo de pedido y pago
+- [ x ] Historial de pedidos
+- [ x ] Interfaz gráfica o web funcional
+- [ x ] Persistencia de datos
 - [ ] <!-- opcional: búsqueda, reportes, descuentos... -->
 
 ---
@@ -76,12 +78,12 @@ git clone (https://github.com/Antomaker/competencia.git)
 
 | Concepto | Clase / método donde se aplica |
 |----------|-------------------------------|
-| Herencia | |
-| Encapsulación | |
-| Polimorfismo | |
-| Abstracción | |
-| Colecciones | |
-| Excepciones | |
+| Herencia | Proteina y Creatina extienden de la clase base Producto|
+| Encapsulación |Uso de modificadores private y métodos Getters/Setters en el paquete modelo. |
+| Polimorfismo |El método listarTodo() maneja una lista de Producto pero instancia objetos específicos según el tipo en la BD. |
+| Abstracción |Clase Producto define la estructura base necesaria para cualquier suplemento. |
+| Colecciones |Uso intensivo de ArrayList<ItemCarrito> y ArrayList<Producto>. |
+| Excepciones |Manejo de SQLException con bloques try-with-resources y Rollbacks en transacciones |
 
 ---
 
