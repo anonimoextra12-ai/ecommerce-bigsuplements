@@ -60,13 +60,13 @@ git clone https://github.com/Antomaker/competencia.git
 
 ## 🎯 Funcionalidades implementadas
 
-- [ x ] Gestión de productos
-- [ x ] Gestión de usuarios / clientes
-- [ x ] Carrito de compras
-- [ x ] Flujo de pedido y pago
-- [ x ] Historial de pedidos
-- [ x ] Interfaz gráfica o web funcional
-- [ x ] Persistencia de datos
+- [x] Gestión de productos
+- [x] Gestión de usuarios / clientes
+- [x] Carrito de compras
+- [x] Flujo de pedido y pago
+- [x] Historial de pedidos
+- [x] Interfaz gráfica o web funcional
+- [x] Persistencia de datos
 - [ ] <!-- opcional: búsqueda, reportes, descuentos... -->
 
 ---
