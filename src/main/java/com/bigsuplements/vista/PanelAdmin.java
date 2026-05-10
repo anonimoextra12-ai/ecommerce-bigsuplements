@@ -192,9 +192,9 @@ public class PanelAdmin extends JFrame {
         }
     }
 
-    // =========================
+    
     // EDITAR PRODUCTO
-    // =========================
+ 
     private void editarProducto() {
 
         int fila = tabla.getSelectedRow();
