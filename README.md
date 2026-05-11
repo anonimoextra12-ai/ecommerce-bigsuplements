@@ -9,7 +9,7 @@
 | [Reinel Pupo Morelo] | [(https://github.com/Puupoox)] |
 | [Emiliano Pérez Meza] | [(https://github.com/anonimoextra12-ai)] |
 | [Alexander Polo Narvaez] | [(https://github.com/melaniepolo0214-alt)] |
-  [Melanie Polo Beltran] | [(https://github.com/melaniepolo0214-alt)] |
+  [Melanie Polo Beltran] | [(https://github.com/alexanderpolonarvaez24-art)] |
 ---
 
 ## 📋 Descripción
