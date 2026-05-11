@@ -6,8 +6,8 @@
 
 | Nombre | GitHub |
 |--------|--------|
-| [Reinel Pupo Morelo] | [@usuario](https://github.com/usuario) |
-| [Emiliano Pérez Meza] | [@usuario](https://github.com/usuario) |
+| [Reinel Pupo Morelo] | [(https://github.com/Puupoox)] |
+| [Emiliano Pérez Meza] | [(https://github.com/anonimoextra12-ai)] |
 | [Alexander Polo Narvaez] | [@usuario](https://github.com/usuario) |
   [Melanie Polo Beltran] | [@usuario](https://github.com/usuario) |
 ---
