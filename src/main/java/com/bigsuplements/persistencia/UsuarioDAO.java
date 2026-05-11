@@ -109,7 +109,6 @@ public class UsuarioDAO {
             PreparedStatement ps = conexion.prepareStatement(sql);
             ps.setInt(1, id);
 
-            
             return ps.executeUpdate() > 0;
 
         } catch (Exception e) {

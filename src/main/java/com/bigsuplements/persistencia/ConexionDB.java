@@ -1,4 +1,5 @@
 package com.bigsuplements.persistencia;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,8 +9,8 @@ public class ConexionDB {
 
     private static final String DRIVER = "org.sqlite.JDBC";
 
-    private static final String URL 
-        = "jdbc:sqlite:bigsuplements.db";
+    private static final String URL
+            = "jdbc:sqlite:bigsuplements.db";
 
     private static ConexionDB instancia;
 
@@ -129,9 +130,7 @@ public class ConexionDB {
 
             """);
 
-            
             // Tabla ventas
-            
             stmt.execute("""
 
                 CREATE TABLE IF NOT EXISTS ventas (
@@ -158,9 +157,7 @@ public class ConexionDB {
 
             """);
 
-            
             // Tabla de los detalles de la venta
-            
             stmt.execute("""
 
                 CREATE TABLE IF NOT EXISTS detalle_ventas (
@@ -199,16 +196,12 @@ public class ConexionDB {
 
     }
 
-    
     // Insertar los datos demo
-    
     private void insertarDatosDemoSiVacio(
             Statement stmt
     ) throws SQLException {
 
-        
         // usuarios demo
-        
         try (var rsU = stmt.executeQuery(
                 "SELECT COUNT(*) AS cnt FROM usuarios"
         )) {
@@ -261,9 +254,7 @@ public class ConexionDB {
 
         }
 
-        
         // Productos DEMO
-        
         try (var rs = stmt.executeQuery(
                 "SELECT COUNT(*) AS cnt FROM productos"
         )) {
@@ -407,9 +398,7 @@ public class ConexionDB {
 
     }
 
-    
     // CERRAR LA CONEXION!!!!!
-   
     public void cerrar() {
 
         try {

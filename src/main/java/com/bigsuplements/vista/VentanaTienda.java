@@ -345,7 +345,7 @@ public class VentanaTienda extends JFrame {
 
             JOptionPane.showMessageDialog(
                     this,
-                    "✅ Compra registrada.\nID Venta: #" + idVenta
+                    " Compra registrada.\nID Venta: #" + idVenta
             );
 
             carrito.vaciar();

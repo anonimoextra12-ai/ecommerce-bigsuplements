@@ -47,7 +47,7 @@ public class VentanaRegistro extends JFrame {
         txtPassword = new JPasswordField();
 
         JButton btnRegistrar = new JButton("REGISTRARSE");
-        btnRegistrar.setBackground(new Color(0, 200, 150)); // Un verde azulado para diferenciar del login
+        btnRegistrar.setBackground(new Color(0, 200, 150)); 
         btnRegistrar.setForeground(Color.WHITE);
         btnRegistrar.setFont(new Font("SansSerif", Font.BOLD, 14));
         btnRegistrar.setFocusPainted(false);
@@ -60,7 +60,7 @@ public class VentanaRegistro extends JFrame {
         form.add(txtEmail);
         form.add(lblPass);
         form.add(txtPassword);
-        form.add(new JLabel("")); // Espacio
+        form.add(new JLabel("")); 
         form.add(btnRegistrar);
 
         add(form, BorderLayout.CENTER);
