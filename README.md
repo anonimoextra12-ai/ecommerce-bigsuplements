@@ -55,7 +55,8 @@ git clone https://github.com/Antomaker/competencia.git
 
 ## 📐 Diagrama de casos de uso
 
-![Casos de uso](docs/uml/casos-de-uso.png)
+![<img width="1649" height="1157" alt="casos-de-uso" src="https://github.com/user-attachments/assets/23755d31-504b-45d4-8c6a-d46ac1eeea93" />]
+
 
 ---
 
