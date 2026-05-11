@@ -32,7 +32,11 @@ El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y 
 git clone https://github.com/Antomaker/competencia.git
 - #2 Abrir el proyecto en netbeans
 - #3 Asegurarse de que la libreria sqlite-jdbc esta en Classpath
-- #4 Ejecutar la clase com.bigsuplements.vista.VentanaTienda
+  (En el panel izquierdo, abre la carpeta Dependencies.
+Asegúrate de que aparezca el archivo sqlite-jdbc-3.45.3.0.jar.
+Si aparece con un icono de advertencia, haz clic derecho sobre el proyecto y selecciona "Clean and Build" para que Maven descargue la librería automáticamente.)
+
+- #4 Ejecutar la clase com.bigsuplements.vista.ventanas.VentanaLogin
 ---
 
 ## 🏗️ Tecnologías usadas
