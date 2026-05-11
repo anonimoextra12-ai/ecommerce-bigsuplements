@@ -48,7 +48,7 @@ git clone https://github.com/Antomaker/competencia.git
 
 ## 🧩 Diagrama de clases UML
 
-![Diagrama de clases](<img width="3655" height="3799" alt="diagrama-uml (1)" src="https://github.com/user-attachments/assets/9f237704-7502-4af4-a37d-ff8d8ecdd598" />)
+![(<img width="3655" height="3799" alt="diagrama-uml (1)" src="https://github.com/user-attachments/assets/9f237704-7502-4af4-a37d-ff8d8ecdd598" />)]
 
 
 ---
