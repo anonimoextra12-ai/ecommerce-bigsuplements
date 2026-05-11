@@ -8,15 +8,15 @@
 |--------|--------|
 | [Reinel Pupo Morelo] | [(https://github.com/Puupoox)] |
 | [Emiliano Pérez Meza] | [(https://github.com/anonimoextra12-ai)] |
-| [Alexander Polo Narvaez] | [@usuario](https://github.com/usuario) |
+| [Alexander Polo Narvaez] | [(https://github.com/melaniepolo0214-alt)] |
   [Melanie Polo Beltran] | [@usuario](https://github.com/usuario) |
 ---
 
 ## 📋 Descripción
 Venderemos suplementación deportiva de alto rendimiento, pero segmentada para facilitar la navegación en el codigo
-Línea de Fuerza: Creatinas y Pre-entrenos (foco en energía y potencia)
-Línea de Recuperación: Proteínas (Whey, Vegana, Isolatada) y Aminoácidos.
-El sistema no solo vende; te pregunta tu objetivo (ej: "Subir masa muscular") y tu peso, y automáticamente te sugiere un Combo Personalizado.
+Línea de Fuerza: Creatinas (foco en energía y potencia),
+Línea de Recuperación: Proteínas (Whey, Vegana, Isolatada).
+
 
 ---
 
