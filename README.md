@@ -77,12 +77,12 @@ git clone https://github.com/Antomaker/competencia.git
 
 | Concepto | Clase / método donde se aplica |
 |----------|-------------------------------|
-| Herencia | Proteina y Creatina extienden de la clase base Producto|
-| Encapsulación |Uso de modificadores private y métodos Getters/Setters en el paquete modelo. |
-| Polimorfismo |El método listarTodo() maneja una lista de Producto pero instancia objetos específicos según el tipo en la BD. |
+| Herencia | VentanaLogin y VentanaHistorial extienden de JFrame. También Proteina y Creatina extienden de Producto.|
+| Encapsulación |Uso de modificadores private en atributos como txtEmail y txtPassword, accediendo a datos mediante getters/setters en la clase Usuario. |
+| Polimorfismo |El método listarTodo() en los DAO maneja objetos de tipo Producto, permitiendo tratar Proteina y Creatina de forma genérica. |
 | Abstracción |Clase Producto define la estructura base necesaria para cualquier suplemento. |
-| Colecciones |Uso intensivo de ArrayList<ItemCarrito> y ArrayList<Producto>. |
-| Excepciones |Manejo de SQLException con bloques try-with-resources y Rollbacks en transacciones |
+| Colecciones |Uso de ArrayList<Object[]> en VentanaHistorial para manejar dinámicamente los datos provenientes de listarHistorialVentas(). |
+| Excepciones |Manejo de errores de base de datos en los DAO mediante bloques try-catch para capturar SQLException. |
 
 ---
 
