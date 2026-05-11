@@ -36,7 +36,7 @@ git clone https://github.com/Antomaker/competencia.git
 Asegúrate de que aparezca el archivo sqlite-jdbc-3.45.3.0.jar.
 Si aparece con un icono de advertencia, haz clic derecho sobre el proyecto y selecciona "Clean and Build" para que Maven descargue la librería automáticamente.)
 
-- #4 Ejecutar la clase com.bigsuplements.vista.ventanas.VentanaLogin
+- #4 Click derecho en  la clase com.bigsuplements.vista.ventanas.VentanaLogin, ejecutar run file.
 ---
 
 ## 🏗️ Tecnologías usadas
@@ -91,5 +91,11 @@ Si aparece con un icono de advertencia, haz clic derecho sobre el proyecto y sel
 ---
 
 ## 🖼️ Capturas
+<img width="400" height="371" alt="image" src="https://github.com/user-attachments/assets/af63b7c3-8971-4002-a00b-2b058c191e42" />
+<img width="1229" height="706" alt="image" src="https://github.com/user-attachments/assets/b86327a0-dcb1-44cc-9f91-08ec28450079" />
+<img width="983" height="593" alt="image" src="https://github.com/user-attachments/assets/70d4da4a-cabd-4cd3-9935-b6263f114c0a" />
+<img width="681" height="534" alt="image" src="https://github.com/user-attachments/assets/43217a7e-1924-493b-b08e-bab97bc8f9f6" />
+
+
 
 <!-- Agrega screenshots en la carpeta assets/ -->
