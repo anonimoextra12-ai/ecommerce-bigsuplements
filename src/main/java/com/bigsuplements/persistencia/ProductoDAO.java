@@ -23,9 +23,6 @@ public class ProductoDAO {
         this.conexion = ConexionDB.getInstance().getConexion();
     }
 
-    /**
-     * LISTAR TODOS LOS PRODUCTOS
-     */
     public ArrayList<Producto> listarTodo() {
 
         ArrayList<Producto> lista = new ArrayList<>();
@@ -33,9 +30,7 @@ public class ProductoDAO {
         String sql = "SELECT * FROM productos ORDER BY nombre";
 
         try (
-                Statement stmt = conexion.createStatement();
-                ResultSet rs = stmt.executeQuery(sql)
-        ) {
+                Statement stmt = conexion.createStatement(); ResultSet rs = stmt.executeQuery(sql)) {
 
             while (rs.next()) {
 
@@ -84,9 +79,6 @@ public class ProductoDAO {
         return lista;
     }
 
-    /**
-     * ACTUALIZAR STOCK
-     */
     public boolean actualizarStock(int id, int cantidad) {
 
         String sql = """
@@ -119,9 +111,7 @@ public class ProductoDAO {
         }
     }
 
-    /**
-     * REGISTRAR VENTA
-     */
+  
     public int registrarVenta(Carrito carrito, int idUsuario) {
 
         String sqlVenta = """
@@ -147,65 +137,64 @@ public class ProductoDAO {
                     PreparedStatement ps = conexion.prepareStatement(
                             sqlVenta,
                             Statement.RETURN_GENERATED_KEYS
-                    )
-            ) {
+                    )) {
 
-                ps.setInt(1, idUsuario);
+                        ps.setInt(1, idUsuario);
 
-                ps.setDouble(2, carrito.getSubtotal());
+                        ps.setDouble(2, carrito.getSubtotal());
 
-                ps.setDouble(3, carrito.getIva());
+                        ps.setDouble(3, carrito.getIva());
 
-                ps.setDouble(4, carrito.getTotal());
+                        ps.setDouble(4, carrito.getTotal());
 
-                ps.executeUpdate();
+                        ps.executeUpdate();
 
-                ResultSet keys = ps.getGeneratedKeys();
+                        ResultSet keys = ps.getGeneratedKeys();
 
-                idVenta = keys.next()
-                        ? keys.getInt(1)
-                        : -1;
-            }
+                        idVenta = keys.next()
+                                ? keys.getInt(1)
+                                : -1;
+                    }
 
-            if (idVenta == -1) {
+                    if (idVenta == -1) {
 
-                conexion.rollback();
+                        conexion.rollback();
 
-                return -1;
-            }
+                        return -1;
+                    }
 
-            try (PreparedStatement ps = conexion.prepareStatement(sqlDetalle)) {
+                    try (PreparedStatement ps = conexion.prepareStatement(sqlDetalle)) {
 
-                for (ItemCarrito item : carrito.getItems()) {
+                        for (ItemCarrito item : carrito.getItems()) {
 
-                    ps.setInt(1, idVenta);
+                            ps.setInt(1, idVenta);
 
-                    ps.setInt(2, item.getProducto().getId());
+                            ps.setInt(2, item.getProducto().getId());
 
-                    ps.setInt(3, item.getCantidad());
+                            ps.setInt(3, item.getCantidad());
 
-                    ps.setDouble(4,
-                            item.getProducto().getPrecio());
+                            ps.setDouble(4,
+                                    item.getProducto().getPrecio());
 
-                    ps.setDouble(5,
-                            item.getSubtotal());
+                            ps.setDouble(5,
+                                    item.getSubtotal());
 
-                    ps.addBatch();
+                            ps.addBatch();
 
-                    actualizarStock(
-                            item.getProducto().getId(),
-                            item.getCantidad()
-                    );
-                }
+                            actualizarStock(
+                                    item.getProducto().getId(),
+                                    item.getCantidad()
+                            );
+                        }
 
-                ps.executeBatch();
-            }
+                        ps.executeBatch();
+                    }
 
-            conexion.commit();
+                    conexion.commit();
 
-            conexion.setAutoCommit(true);
+                    conexion.setAutoCommit(true);
 
-            return idVenta;
+                    return idVenta;
 
         } catch (SQLException e) {
 
@@ -227,9 +216,7 @@ public class ProductoDAO {
         }
     }
 
-    /**
-     * HISTORIAL DE VENTAS
-     */
+    
     public ArrayList<Object[]> listarHistorialVentas() {
 
         ArrayList<Object[]> historial = new ArrayList<>();
@@ -250,9 +237,7 @@ public class ProductoDAO {
                      """;
 
         try (
-                Statement stmt = conexion.createStatement();
-                ResultSet rs = stmt.executeQuery(sql)
-        ) {
+                Statement stmt = conexion.createStatement(); ResultSet rs = stmt.executeQuery(sql)) {
 
             while (rs.next()) {
 
@@ -278,9 +263,7 @@ public class ProductoDAO {
         return historial;
     }
 
-    /**
-     * AGREGAR PRODUCTO
-     */
+   
     public boolean agregarProducto(Producto p) {
 
         String sql = """
@@ -347,9 +330,7 @@ public class ProductoDAO {
         }
     }
 
-    /**
-     * ELIMINAR PRODUCTO
-     */
+   
     public boolean eliminarProducto(int id) {
 
         String sql = "DELETE FROM productos WHERE id = ?";
@@ -371,9 +352,7 @@ public class ProductoDAO {
         }
     }
 
-    /**
-     * ACTUALIZAR PRODUCTO
-     */
+    
     public boolean actualizarProducto(Producto p) {
 
         String sql = """
